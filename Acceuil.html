@@ -1,43 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" media="only screen and (max-width:500px)" href="./css/style-mobile.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css?family=Long+Cang|Montserrat:300,400,700&display=swap" rel="stylesheet"/>
+		<title>Agence Luxor</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cet événement a pour objectif de sensibiliser les développeurs, designers et
-    chefs de projet à l'importance de l’accessibilité numérique.">
-    <link rel="stylesheet" href="style.css">
-    <title>Accueil</title>
-</head>
 
-<body>
-    <header>
-        <h1>AccessiWeb 2025</h1>
-        <nav>
-            <ul>
-                <li>Accueil</li>
-                <li>Inscription</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="description">
-            <h2>Bienvenue à AccessiWeb 2025</h2>
-            <p>Une conférence dédiée à l'accessibilté numérique pour tous les professionnels du web</p>
-            <p>L’association WebInclusif organise une conférence intitulée "AccessiWeb 2025 : Un Web
-                pour Tous". Cet événement a pour objectif de sensibiliser les développeurs, designers et
-                chefs de projet à l'importance de l’accessibilité numérique.
-                Vous êtes chargés de concevoir un site web comprenant 3 pages : Accueil, Inscription et
-                Contact. Les différentes pages du site doivent être accessible à tous, y compris aux
-                personnes en situation de handicap.</p>
-                <img src="images/handicaps.png" alt="Illustration représentant quatre types de handicaps : moteur (icône d'un fauteuil roulant sur fond rose), auditif (icône d'une oreille barrée sur fond orange), visuel (icône d'un œil avec une barre diagonale sur fond turquoise) et cognitif (icône d'une tête avec des engrenages sur fond bleu foncé).">
-            <a href="inscription.html" class="button"> S'inscrire</a>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 AccessiWeb. Tous droits réservés.</p>
-    </footer>
-</body>
+	<body>
+		<div class="vp-container">
+			<header>
+				<h2 class="vp-logo">
+					<i class="fa-brands fa-accessible-icon"></i>
+					<a href="">AccessiWeb</a>
+				</h2>
+				<ul>
+					<li><a href="#subject">Accueil</a></li>
+					<li><a href="#team">Inscription</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</header>
 
+			<section class="vp">
+				<div class="vp-content">
+					<h1>AccessiWeb 2025
+						<strong>Un Web pour Tous</strong>
+					</h1>
+					<p>Cet événement a pour objectif de sensibiliser les développeurs, designers et
+						                chefs de projet à l'importance de l’accessibilité numérique..</p>
+				</div>
+			</section>
+		</div>
+
+		<section id="subject" class="subject">
+			<div class="container">
+				<h2 class="title">Les <strong>sujets</strong>  à aborder</h2>
+				<ul class="subject-list">
+					<li class="subject-elem">
+						<img src="./images/moteur.jpg" alt="Handicap moteur" class="subject-elem-img">
+						<div class="subject-elem-text">
+							<p>Handicap moteur</p>
+
+							
+						</div>
+					</li>
+
+					<li class="subject-elem">
+						<img src="./images/visuel.png" alt="Handicap visuel" class="subject-elem-img">
+						<div class="subject-elem-text">
+							<p>Handicap visuel</p>
+						</div>
+					</li>
+
+					<li class="subject-elem">
+						<img src="./images/auditif.png" alt="Handicap auditif" class="subject-elem-img">
+						<div class="subject-elem-text">
+							<p>Handicap auditif</p>
+						</div>
+					</li>
+
+                    <li class="subject-elem">
+						<img src="./images/psychique.jpg" alt="Handicap psychique" class="subject-elem-img">
+						<div class="subject-elem-text">
+							<p>Handicap psychique</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section id="team" class="who">
+
+			<div class="who-content-img"></div>
+			<div class="who-content-text bg-dark">
+				<h2>Une équipe de
+					<strong>professionnels</strong>
+					avec plus de 10 ans d'expérience</h2>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, incidunt at. Assumenda ipsam sint in rerum, quo repudiandae! Ab tenetur molestiae iure magnam unde, labore eius, laborum dolores dolor est et sit! Facere beatae nulla blanditiis dolores esse iusto repudiandae quasi voluptatum cumque facilis tempore, quis iste rem sequi explicabo!
+			</div>
+		</section>
+
+<section id="inscription" class="inscription">
+
+			<form action="#" class="inscription-form">
+				<h2 class="title">Pour
+					<strong>s'inscrire</strong> à notre évenement
+				</h2>
+                  
+
+				<input type="text" placeholder="Nom" name="name" id="name">
+                <input type="text" placeholder="Prénom" name="name" id="name">
+				<input type="email" placeholder="Email" name="email" id="email">
+                <input type="text" placeholder="Numéro de téléphone" name="tel" id="tel">
+
+
+				<div>
+					<button class="inscription-form-button">Soumettre</button>
+				</div>
+			</form>
+		</section>
+
+		<section id="contact" class="contact bg-dark">
+
+			<form action="#" class="contact-form">
+				<h2 class="title">Pour nous
+					<strong>contacter</strong>
+				</h2>
+                  
+
+				<input type="text" placeholder="Nom" name="name" id="name">
+				<input type="email" placeholder="Email" name="email" id="email">
+				<input type="text" placeholder="Votre message..." name="message" id="message">
+
+				<div>
+					<button class="contact-form-button">Soumettre</button>
+				</div>
+			</form>
+		</section>
+
+		<footer>
+			<p>Copyright © 2025 AccessiWeb. Tous droits réservés.</p>
+		</footer>
+	</body>
 </html>
