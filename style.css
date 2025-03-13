@@ -5,22 +5,22 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
-main {
+#accueil {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 100vh;
 }
 nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
-header{
+header {
     background-color: #8f8c8c3a;
     padding: 10px;
 }
-header h1{
+header h1 {
     text-align: center;
 }
 a {
@@ -33,7 +33,7 @@ a:hover {
 /* Ajoute un contour jaune aux liens lorsqu'ils sont sélectionnés (focus) pour améliorer l'accessibilité.
    Cela permet aux utilisateurs naviguant au clavier (ex: avec la touche Tab) de mieux repérer les liens actifs. */
 a:focus {
-    outline: 2px solid #ffcc00; 
+    outline: 2px solid #ffcc00;
 }
 .button {
     display: inline-block;
@@ -44,7 +44,5 @@ a:focus {
     text-align: center;
 }
 .button:focus {
-    outline: 2px solid  #ffcc00;
+    outline: 2px solid #ffcc00;
 }
-
-
