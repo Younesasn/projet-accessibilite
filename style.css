@@ -43,7 +43,7 @@ a:focus {
     text-align: center;
 }
 .button:focus {
-    outline: 2px solid yellow;
+    outline: 2px solid  #ffcc00;
 }
 
 
