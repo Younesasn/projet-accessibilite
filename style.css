@@ -30,6 +30,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* Ajoute un contour jaune aux liens lorsqu'ils sont sélectionnés (focus) pour améliorer l'accessibilité.
+   Cela permet aux utilisateurs naviguant au clavier (ex: avec la touche Tab) de mieux repérer les liens actifs. */
 a:focus {
     outline: 2px solid #ffcc00; 
 }
